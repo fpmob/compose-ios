@@ -4,7 +4,7 @@ import org.jetbrains.compose.experimental.dsl.IOSDevices
 
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose") version "1.3.0"
+    id("org.jetbrains.compose") version "1.3.1"
 }
 
 version = "1.0"
@@ -99,7 +99,7 @@ compose.experimental {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
+    kotlinOptions.jvmTarget = "19"
 }
 
 kotlin {
